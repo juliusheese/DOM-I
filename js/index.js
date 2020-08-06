@@ -80,3 +80,12 @@ document.querySelectorAll(`.contact p`)[1].textContent = siteContent["contact"][
 document.querySelectorAll(`.contact p`)[2].textContent = siteContent["contact"]["email"];
 //footer
 document.querySelector(`footer p`).textContent = siteContent["footer"]["copyright"];
+//additional stuff
+navbar[0].style.color = "green";
+navbar[1].style.color = "green";
+navbar[2].style.color = "green";
+navbar[3].style.color = "green";
+navbar[4].style.color = "green";
+navbar[5].style.color = "green";
+navbar[5].appendChild(document.createTextNode(" Help"));
+navbar[0].prepend(document.createTextNode("Impact "));
