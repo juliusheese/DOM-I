@@ -73,3 +73,10 @@ bcconp[1].textContent = siteContent["main-content"]["product-content"];
 bcconp[2].textContent = siteContent["main-content"]["vision-content"];
 let mimg = document.getElementById("middle-img");
 mimg.setAttribute('src', siteContent["main-content"]["middle-img-src"]);
+//contact
+document.querySelector(`.contact h4`).textContent = siteContent["contact"]["contact-h4"];
+document.querySelectorAll(`.contact p`)[0].textContent = siteContent["contact"]["address"];
+document.querySelectorAll(`.contact p`)[1].textContent = siteContent["contact"]["phone"];
+document.querySelectorAll(`.contact p`)[2].textContent = siteContent["contact"]["email"];
+//footer
+document.querySelector(`footer p`).textContent = siteContent["footer"]["copyright"];
