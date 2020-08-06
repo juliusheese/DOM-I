@@ -49,5 +49,10 @@ navbar[2].textContent = siteContent["nav"]["nav-item-3"];
 navbar[3].textContent = siteContent["nav"]["nav-item-4"];
 navbar[4].textContent = siteContent["nav"]["nav-item-5"];
 navbar[5].textContent = siteContent["nav"]["nav-item-6"];
-let cta = document.getElementsByClassName("cta-text");
+//cta stuff
+let cta = document.querySelector(".cta-text h1");
+let cta1 = document.querySelector(".cta-text button");
+let cta2 = document.getElementById("cta-img");
 cta.textContent = siteContent["cta"]["h1"];
+cta1.textContent = siteContent["cta"]["button"];
+cta2.setAttribute('src', siteContent["cta"]["img-src"]);
